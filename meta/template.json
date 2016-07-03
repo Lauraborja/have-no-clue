@@ -1,0 +1,59 @@
+{
+    "id": "404-template",
+    "name": "404 Error Template",
+    "mobile": true,
+    "notes": "Moved content-link into content-text section and removed from template.json.",
+    "syntax": 4,
+    "version": 1.03,
+    "style": {
+        "replacements": [
+            {"type": "color", "find": "#fffffe", "name": "Page Background"},
+            {"type": "color", "find": "#1fa2ed", "name": "Accent/Link Color"},
+            {"type": "color", "find": "#33495f", "name": "Text Color"},
+            {"type": "color", "find": "#33495e", "name": "Box Color"},
+            {"type": "color", "find": "#fffeff", "name": "Box Text Color"},
+            {"type": "color", "find": "#1ec279", "name": "Button Color"},
+            {"type": "color", "find": "#14AD69", "name": "Button Hover Color"},
+            {"type": "color", "find": "#feffff", "name": "Button Text Color"},
+            {"type": "color", "find": "#f8f8f7", "name": "Navigation Background"},
+            {"type": "color", "find": "#f1f0f0", "name": "Footer Background"}
+        ]
+    },
+    "elements": [
+        {"id": "header", "name": "Header", "type": "container"},
+        {"id": "logo", "type": "image-link", "name": "Logo"},
+
+
+        {"id": "content", "name": "Content", "type": "container"},
+        {"id": "content-fill", "name": "Message", "type": "container"},
+        {"id": "content-img", "name": "Image", "type": "image", "data": { "max-width": 528 } },
+        {"id": "content-title", "name": "Title", "type": "text"},
+        {"id": "content-text", "name": "Text", "type": "text"},
+        {"id": "cta", "name": "Box", "type": "container"},
+        {"id": "cta-title", "name": "Title", "type": "text"},
+        {"id": "cta-text", "name": "Text", "type": "text"},
+        {"id": "cta-btn", "name": "Button", "type": "link", "data": {"href": "#/optin"} },
+
+
+        {"id": "navigation", "name": "Navigation", "type": "container"},
+        {"id": "links", "name": "Links", "type": "container"},
+        {"id": "link-1", "name": "Link #1", "type": "link"},
+        {"id": "link-2", "name": "Link #2", "type": "link"},
+        {"id": "link-3", "name": "Link #3", "type": "link"},
+        {"id": "link-4", "name": "Link #4", "type": "link"},
+        {"id": "link-5", "name": "Link #5", "type": "link"},
+        {"id": "link-6", "name": "Link #6", "type": "link"},
+        {"id": "link-7", "name": "Link #7", "type": "link"},
+        {"id": "link-8", "name": "Link #8", "type": "link"},
+        {"id": "link-9", "name": "Link #9", "type": "link"},
+        {"id": "nav-text-before", "name": "Text (Before)", "type": "text"},
+        {"id": "nav-text-link", "name": "Text Link", "type": "link"},
+        {"id": "nav-text-after", "name": "Text (After)", "type": "text"},
+
+
+        {"id": "footer", "name": "Footer", "type": "container"},
+        {"id": "footer-text", "name": "Text", "type": "text"},
+        {"id": "footer-link", "name": "Link", "type": "link"}
+    ],
+    "form": {}
+}
